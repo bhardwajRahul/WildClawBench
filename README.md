@@ -189,6 +189,45 @@ Then run:
 bash script/run.sh
 ```
 
+### Using a Custom Model Endpoint (Without OpenRouter)
+
+If you prefer to use your own API endpoint instead of OpenRouter, you can configure a custom base URL directly in the OpenClaw config inside the Docker container.
+
+**1. Start the container and exec into it:**
+```bash
+docker run -d --name wildclawbench wildclawbench-ubuntu:v1.2
+docker exec -it wildclawbench bash
+```
+
+**2. Edit `~/.openclaw/openclaw.json` to add your provider under `models.providers`:**
+```json
+{
+  "models": {
+    "providers": {
+      "openai": {
+        "baseUrl": "http://your-host:port/v1",
+        "models": ["openai/gpt-4o"]
+      }
+    }
+  }
+}
+```
+
+Replace `baseUrl` with your endpoint and list the model(s) you want available.
+
+**3. Commit the modified container as a new image:**
+```bash
+docker commit wildclawbench wildclawbench-custom:v1
+```
+
+**4. Update `.env` to use your model and point to the new image:**
+```
+DEFAULT_MODEL=openai/gpt-4o
+OPENAI_API_KEY=your_api_key_here
+```
+
+Then run as usual with `bash script/run.sh`. The `OPENROUTER_API_KEY` is no longer required when using a custom endpoint.
+
 ## Check the Results
 
 After the run completes, a per-category summary and a global summary (`output/summary_all.json`) are generated automatically. Each metric is scored from `0.00` to `1.00`.
