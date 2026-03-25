@@ -4,10 +4,14 @@
   <img src="assets/lobster_battle.png" alt="WildClawBench Lobster" width="480">
 </p>
 
+<div align="center">
+
 [![Leaderboard](https://img.shields.io/badge/🏆_Leaderboard-WildClawBench-8c2416)](https://internlm.github.io/WildClawBench/)
 [![HuggingFace](https://img.shields.io/badge/🤗_HuggingFace-Dataset-yellow)](https://huggingface.co/datasets/internlm/WildClawBench)
 [![Tasks](https://img.shields.io/badge/Tasks-60-blue)]()
 [![Models](https://img.shields.io/badge/Models-10-green)]()
+
+</div>
 
 
 > **Hard, practical, end-to-end evaluation for AI agents — in the wild.**
