@@ -110,7 +110,7 @@ newgrp docker
 
 ### Download Image
 
-Download the Docker image tarball from [HuggingFace](https://huggingface.co/datasets/Mar2Ding/WildClawBench/blob/main/Images/wildclawbench-ubuntu_v1.2.tar):
+Download the Docker image tarball from [HuggingFace](https://huggingface.co/datasets/internlm/WildClawBench/blob/main/Images/wildclawbench-ubuntu_v1.2.tar):
 
 ```bash
 pip install -U huggingface_hub
@@ -125,7 +125,7 @@ docker load -i Images/wildclawbench-ubuntu_v1.2.tar
 
 ### Download Task Data
 
-Download the task data from [HuggingFace](https://huggingface.co/datasets/Mar2Ding/WildClawBench/tree/main/workspace):
+Download the task data from [HuggingFace](https://huggingface.co/datasets/internlm/WildClawBench/tree/main/workspace):
 
 ```bash
 huggingface-cli download internlm/WildClawBench workspace --repo-type dataset --local-dir .
