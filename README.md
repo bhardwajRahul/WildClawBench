@@ -304,7 +304,7 @@ output/<category>/<task_id>/<model_timestamp>/
 ```
 
 For independent verification and side-by-side comparison, we have provided the complete evaluation details and trajectories in this Google Drive folder: [WildClawBench_details](https://drive.google.com/file/d/1FX6eidw9fNQgm15w6jOjOUCqWAQ__r0Y/view?usp=drive_link).
----
+
 
 ## Personal OpenClaw Evaluation
 
