@@ -334,6 +334,24 @@ We will update the leaderboard periodically.
 
 ---
 
+## Citation
+
+If you use WildClawBench in your research, please cite it as:
+
+```bibtex
+@misc{wildclawbench,
+  author       = {Shuangrui Ding and Xuanlang Dai and Long Xing and Shengyuan Ding and Ziyu Liu and Jingyi Yang and Penghui Yang and Zhixiong Zhang and Xilin Wei and Yubo Ma and Haodong Duan and Jing Shao and Jiaqi Wang and Dahua Lin and Kai Chen and Yuhang Zang},
+  title        = {WildClawBench},
+  howpublished = {https://github.com/InternLM/WildClawBench},
+  note         = {GitHub repository},
+  year         = {2026}
+}
+```
+
+For machine-readable citation metadata, see [`CITATION.cff`](CITATION.cff). GitHub will use this file to populate the repository's "Cite this repository" panel.
+
+---
+
 ## Contributors
 
 [Shuangrui Ding](https://mark12ding.github.io/)\* (Project Lead), [Xuanlang Dai](https://github.com/LennoxDai)\*, [Long Xing](https://github.com/Cooperx521)\*, [Shengyuan Ding](https://github.com/SYuan03), [Ziyu Liu](https://liuziyu77.github.io/), [Jingyi Yang](https://yjyddq.github.io/), [Penghui Yang](https://github.com/yph22), [Zhixiong Zhang](https://github.com/rookiexiong7), [Xilin Wei](https://github.com/wiselnn570)
