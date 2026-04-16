@@ -417,11 +417,11 @@ MIT — see [LICENSE](LICENSE) for details.
 If you use **WildClawBench** in your research, please cite:
 
 ```bibtex
-@misc{wildclawbench,
-  author       = {Shuangrui Ding and Xuanlang Dai and Long Xing and Shengyuan Ding and Ziyu Liu and Jingyi Yang and Penghui Yang and Zhixiong Zhang and Xilin Wei and Yubo Ma and Haodong Duan and Jing Shao and Jiaqi Wang and Dahua Lin and Kai Chen and Yuhang Zang},
-  title        = {WildClawBench},
-  howpublished = {https://github.com/InternLM/WildClawBench},
-  note         = {GitHub repository},
-  year         = {2026}
+@software{Ding_WildClawBench,
+  author  = {Ding, Shuangrui and Dai, Xuanlang and Xing, Long and Ding, Shengyuan and Liu, Ziyu and Yang, Jingyi and Yang, Penghui and Zhang, Zhixiong and Wei, Xilin and Ma, Yubo and Duan, Haodong and Shao, Jing and Wang, Jiaqi and Lin, Dahua and Chen, Kai and Zang, Yuhang},
+  title   = {WildClawBench},
+  year    = {2026},
+  url     = {https://github.com/InternLM/WildClawBench},
+  license = {MIT}
 }
 ```
